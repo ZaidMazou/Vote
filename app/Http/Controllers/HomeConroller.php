@@ -95,7 +95,7 @@ class HomeConroller extends Controller
             ]
         ]);
 
-        \FedaPay\FedaPay::setApiKey('sk_sandbox_Wf5kGyW99hsXB20VJa-TpVFb');
+        \FedaPay\FedaPay::setApiKey();
         \FedaPay\FedaPay::setEnvironment('sandbox');
 
         try {
